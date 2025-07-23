@@ -1,0 +1,95 @@
+[INFO] 2025/07/22 18:14:34 logger.go:61: Logger initialized successfully
+[INFO] 2025/07/22 18:14:34 logger.go:68: Starting log rotation service...
+[INFO] 2025/07/22 18:14:34 logger.go:68: Starting Pawtroli Backend Server...
+[INFO] 2025/07/22 18:14:34 logger.go:68: Initializing Firebase...
+[INFO] 2025/07/22 18:14:34 logger.go:68: Firebase initialized successfully.
+[INFO] 2025/07/22 18:14:34 logger.go:68: ✅ Firestore client initialized
+[INFO] 2025/07/22 18:14:34 logger.go:68: VerifyToken middleware initialized
+[INFO] 2025/07/22 18:14:34 logger.go:68: 🚀 Server running on :8080
+[INFO] 2025/07/22 18:23:18 logger.go:75: Incoming request: POST /login from 192.168.0.164:2746
+[DEBUG] 2025/07/22 18:23:18 logger.go:110: VerifyToken middleware called
+[DEBUG] 2025/07/22 18:23:18 logger.go:117: VerifyToken: Authorization header: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImE4ZGY2MmQzYTBhNDRlM2RmY2RjYWZjNmRhMTM4Mzc3NDU5ZjliMDEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vcGF3dHJvbGktYTU0ZTQiLCJhdWQiOiJwYXd0cm9saS1hNTRlNCIsImF1dGhfdGltZSI6MTc1MzE4MzM4OSwidXNlcl9pZCI6IkN4T21xOG5nT0JTQWxYUndRS0lTVTNYbkpLMzIiLCJzdWIiOiJDeE9tcThuZ09CU0FsWFJ3UUtJU1UzWG5KSzMyIiwiaWF0IjoxNzUzMTgzMzg5LCJleHAiOjE3NTMxODY5ODksImVtYWlsIjoiYWxiZXJ0bmF0aGFuLjIwMDNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYWxiZXJ0bmF0aGFuLjIwMDNAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.rcKLGU9MiYm3vn5huXDYeLWDs66hhWwVWwhNKYS2AbFQ6xLXLPHZx5dMBjaNDOQAFb8ci3i7CuWvo0TrnxhXvQo4j81HviDYSBkqYwIqT4I5VAUAMLp2050IhOTW9922O1i-tzmy2Y3oyLYASb2c6rZvRCE6o7zeeKtdnX4zsvapZtwljedr-N8S76tvcGAW88w6nGW5awfOEIMIgM6Kr3UC3QdLdGt84OTtA1tzORStt0fQokgrMct683uWpM5r89gXtXBxIGM-rnIiD98S289uxKOYjF0cFKUd1ZETmIRdHeW6za2Sw6W114XkXj_XtxnyNnqz4Vegu5o-RHjAaA
+[INFO] 2025/07/22 18:23:18 logger.go:75: VerifyToken: Authenticated UID: CxOmq8ngOBSAlXRwQKISU3XnJK32 (verification took 296.05ms)
+[INFO] 2025/07/22 18:23:18 logger.go:75: Auth token_verification operation successful for UID: CxOmq8ngOBSAlXRwQKISU3XnJK32
+[INFO] 2025/07/22 18:23:18 logger.go:75: SecureEndpointHandler called: method=POST, url=/login, remoteAddr=192.168.0.164:2746
+[INFO] 2025/07/22 18:23:18 logger.go:75: User ID from context: CxOmq8ngOBSAlXRwQKISU3XnJK32
+[INFO] 2025/07/22 18:23:18 logger.go:75: Authenticated user: CxOmq8ngOBSAlXRwQKISU3XnJK32
+[INFO] 2025/07/22 18:23:18 logger.go:75: Firestore READ operation on users/CxOmq8ngOBSAlXRwQKISU3XnJK32 successful - Duration: 355.0456ms
+[INFO] 2025/07/22 18:23:18 logger.go:75: HTTP POST /login from 192.168.0.164:2746 - Status: 200 - Duration: 355.6072ms
+[INFO] 2025/07/22 18:23:18 logger.go:75: Auth login operation successful for UID: CxOmq8ngOBSAlXRwQKISU3XnJK32
+[INFO] 2025/07/22 18:23:18 logger.go:75: HTTP POST /login from 192.168.0.164:2746 - Status: 200 - Duration: 669.9834ms
+[INFO] 2025/07/22 18:25:03 logger.go:75: Incoming request: GET /pets/PW8 from 192.168.0.164:2840
+[INFO] 2025/07/22 18:25:03 logger.go:75: Fetching pet with ID: PW8
+[INFO] 2025/07/22 18:25:03 logger.go:75: Successfully fetched pet PW8 in 108.3861ms
+[INFO] 2025/07/22 18:25:03 logger.go:75: HTTP GET /pets/PW8 from 192.168.0.164:2840 - Status: 200 - Duration: 117.3576ms
+[INFO] 2025/07/22 18:25:13 logger.go:75: Incoming request: GET /pets/PW8 from 192.168.0.164:2849
+[INFO] 2025/07/22 18:25:13 logger.go:75: Fetching pet with ID: PW8
+[INFO] 2025/07/22 18:25:13 logger.go:75: Successfully fetched pet PW8 in 82.8187ms
+[INFO] 2025/07/22 18:25:13 logger.go:75: HTTP GET /pets/PW8 from 192.168.0.164:2849 - Status: 200 - Duration: 83.4636ms
+[INFO] 2025/07/22 18:25:15 logger.go:75: Incoming request: GET /pets/PW_8 from 192.168.0.164:2850
+[INFO] 2025/07/22 18:25:15 logger.go:75: Fetching pet with ID: PW_8
+[INFO] 2025/07/22 18:25:16 logger.go:75: Successfully fetched pet PW_8 in 960.6041ms
+[INFO] 2025/07/22 18:25:16 logger.go:75: HTTP GET /pets/PW_8 from 192.168.0.164:2850 - Status: 200 - Duration: 961.428ms
+[INFO] 2025/07/22 18:40:14 logger.go:75: Incoming request: GET /pets/PW_8 from 192.168.0.164:3671
+[INFO] 2025/07/22 18:40:14 logger.go:75: Fetching pet with ID: PW_8
+[INFO] 2025/07/22 18:40:15 logger.go:75: Successfully fetched pet PW_8 in 795.5764ms
+[INFO] 2025/07/22 18:40:15 logger.go:75: HTTP GET /pets/PW_8 from 192.168.0.164:3671 - Status: 200 - Duration: 796.6253ms
+[INFO] 2025/07/22 18:42:23 logger.go:75: Incoming request: GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3799
+[INFO] 2025/07/22 18:42:23 logger.go:75: GetMessages called for roomId: 0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:jOGp4wJe7jaaRUyiWODy RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:08:42.10594 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:FwCN3EgdAwd2VS5PmGyi RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:11:39.996767 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:0U13KADVbTeIVhOKwDvE RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:30:56.342603 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:32D5GTVybQLrVIkpFL5n RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:ya knp Timestamp:2025-05-30 09:02:24.994322 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:XBivfgKXN3wvfBaA9C4B RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-30 19:16:46.789892 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:YjYrpGMXGaoXTDz5xBCd RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halooo Timestamp:2025-05-30 19:17:25.233496 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:UP7FMNrdOhekB0io76IA RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo lagi Timestamp:2025-05-30 19:17:59.005322 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:GwQf65vqalAbWvsUZq4B RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:tes Timestamp:2025-05-30 19:19:53.033597 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:c59Niiw0xMGuIcOZ5LEH RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:tes Timestamp:2025-05-30 19:19:59.193244 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:MLuAjIXF6A3WuSf3fVuI RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halo Timestamp:2025-05-30 19:20:05.133822 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:kx4SW6AaPAcmyxh4NDiC RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halooooooooo Timestamp:2025-05-30 19:20:49.014341 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:MkpWtEOkQ68M359wExNf RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-30 19:21:09.078509 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:23 logger.go:117: Message: &{ID:H6VCqupyfJy8BjeY8pPE RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halo Timestamp:2025-06-30 06:50:52.001719 +0000 UTC}
+[INFO] 2025/07/22 18:42:23 logger.go:75: Fetched 13 messages for roomId: 0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32
+[INFO] 2025/07/22 18:42:23 logger.go:75: Firestore READ operation on chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages/ successful - Duration: 92.4804ms
+[INFO] 2025/07/22 18:42:23 logger.go:75: HTTP GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3799 - Status: 200 - Duration: 101.979ms
+[INFO] 2025/07/22 18:42:23 logger.go:75: HTTP GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3799 - Status: 200 - Duration: 104.4224ms
+[INFO] 2025/07/22 18:42:24 logger.go:75: Incoming request: GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3803
+[INFO] 2025/07/22 18:42:24 logger.go:75: GetMessages called for roomId: 0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:jOGp4wJe7jaaRUyiWODy RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:08:42.10594 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:FwCN3EgdAwd2VS5PmGyi RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:11:39.996767 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:0U13KADVbTeIVhOKwDvE RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:30:56.342603 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:32D5GTVybQLrVIkpFL5n RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:ya knp Timestamp:2025-05-30 09:02:24.994322 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:XBivfgKXN3wvfBaA9C4B RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-30 19:16:46.789892 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:YjYrpGMXGaoXTDz5xBCd RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halooo Timestamp:2025-05-30 19:17:25.233496 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:UP7FMNrdOhekB0io76IA RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo lagi Timestamp:2025-05-30 19:17:59.005322 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:GwQf65vqalAbWvsUZq4B RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:tes Timestamp:2025-05-30 19:19:53.033597 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:c59Niiw0xMGuIcOZ5LEH RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:tes Timestamp:2025-05-30 19:19:59.193244 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:MLuAjIXF6A3WuSf3fVuI RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halo Timestamp:2025-05-30 19:20:05.133822 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:kx4SW6AaPAcmyxh4NDiC RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halooooooooo Timestamp:2025-05-30 19:20:49.014341 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:MkpWtEOkQ68M359wExNf RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-30 19:21:09.078509 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:24 logger.go:117: Message: &{ID:H6VCqupyfJy8BjeY8pPE RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halo Timestamp:2025-06-30 06:50:52.001719 +0000 UTC}
+[INFO] 2025/07/22 18:42:24 logger.go:75: Fetched 13 messages for roomId: 0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32
+[INFO] 2025/07/22 18:42:24 logger.go:75: Firestore READ operation on chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages/ successful - Duration: 81.887ms
+[INFO] 2025/07/22 18:42:24 logger.go:75: HTTP GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3803 - Status: 200 - Duration: 85.3708ms
+[INFO] 2025/07/22 18:42:24 logger.go:75: HTTP GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3803 - Status: 200 - Duration: 85.3708ms
+[INFO] 2025/07/22 18:42:26 logger.go:75: Incoming request: GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3807
+[INFO] 2025/07/22 18:42:26 logger.go:75: GetMessages called for roomId: 0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:jOGp4wJe7jaaRUyiWODy RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:08:42.10594 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:FwCN3EgdAwd2VS5PmGyi RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:11:39.996767 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:0U13KADVbTeIVhOKwDvE RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-29 16:30:56.342603 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:32D5GTVybQLrVIkpFL5n RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:ya knp Timestamp:2025-05-30 09:02:24.994322 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:XBivfgKXN3wvfBaA9C4B RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-30 19:16:46.789892 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:YjYrpGMXGaoXTDz5xBCd RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halooo Timestamp:2025-05-30 19:17:25.233496 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:UP7FMNrdOhekB0io76IA RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo lagi Timestamp:2025-05-30 19:17:59.005322 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:GwQf65vqalAbWvsUZq4B RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:tes Timestamp:2025-05-30 19:19:53.033597 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:c59Niiw0xMGuIcOZ5LEH RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:tes Timestamp:2025-05-30 19:19:59.193244 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:MLuAjIXF6A3WuSf3fVuI RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halo Timestamp:2025-05-30 19:20:05.133822 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:kx4SW6AaPAcmyxh4NDiC RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halooooooooo Timestamp:2025-05-30 19:20:49.014341 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:MkpWtEOkQ68M359wExNf RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:CxOmq8ngOBSAlXRwQKISU3XnJK32 Content:halo Timestamp:2025-05-30 19:21:09.078509 +0000 UTC}
+[DEBUG] 2025/07/22 18:42:26 logger.go:117: Message: &{ID:H6VCqupyfJy8BjeY8pPE RoomID:0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32 SenderID:0Vpi1y6wuCOxj10BZc6CGPMngkI2 Content:halo Timestamp:2025-06-30 06:50:52.001719 +0000 UTC}
+[INFO] 2025/07/22 18:42:26 logger.go:75: Fetched 13 messages for roomId: 0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32
+[INFO] 2025/07/22 18:42:26 logger.go:75: Firestore READ operation on chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages/ successful - Duration: 71.2666ms
+[INFO] 2025/07/22 18:42:26 logger.go:75: HTTP GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3807 - Status: 200 - Duration: 74.1727ms
+[INFO] 2025/07/22 18:42:26 logger.go:75: HTTP GET /chats/0Vpi1y6wuCOxj10BZc6CGPMngkI2_CxOmq8ngOBSAlXRwQKISU3XnJK32/messages from 192.168.0.164:3807 - Status: 200 - Duration: 74.1727ms
+[INFO] 2025/07/22 19:11:19 logger.go:68: Shutting down server...
+[INFO] 2025/07/22 19:11:19 logger.go:68: Stopping log rotation service...
